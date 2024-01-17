@@ -85,7 +85,7 @@ module.exports = {
           './tsconfig.json',
           './cypress-base/tsconfig.json',
           './packages/superset-ui-demo/tsconfig.json',
-          './packages/superset-ui-core/tsconfig.json',
+          // './packages/superset-ui-core/tsconfig.json',
         ],
       },
       extends: [

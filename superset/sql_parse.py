@@ -74,6 +74,10 @@ sqlparser_sql_regex.insert(25, (r"'(''|\\\\|\\|[^'])*'", sqlparse.tokens.String.
 lex.set_SQL_REGEX(sqlparser_sql_regex)
 
 
+# mapping between DB engine specs and sqlglot dialects
+SQLGLOT_DIALECTS = {}
+
+
 class CtasMethod(StrEnum):
     TABLE = "TABLE"
     VIEW = "VIEW"
